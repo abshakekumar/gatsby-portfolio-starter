@@ -48,3 +48,46 @@ body {
   color: #fff;
   transform: translateY(-2px);
 }
+
+a {
+  text-decoration: none;
+}
+
+ul.contact-us li {
+  padding: 1.5rem 0;
+  list-style: none;
+  display: flex;
+}
+ul.contact-us li p {
+  margin: 0;
+}
+ul.contact-us li a {
+  color: inherit;
+}
+ul.contact-us li a:hover {
+  color: #d6f10b;
+}
+ul.contact-us li svg {
+  width: 1.2rem;
+  fill: #d6f10b;
+  padding-right: 1rem;
+}
+.outer-container {
+  width: 350px;
+  max-width: 350px;
+}
+.contactMe .contact-us-image {
+  flex: 1;
+}
+@media (max-width: 500px) {
+  .outer-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contactMe {
+    flex-direction: column !important;
+    padding-left: 20px !important;
+  }
+}

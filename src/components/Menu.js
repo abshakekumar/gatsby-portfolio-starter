@@ -41,6 +41,18 @@ const Menu = () => {
                 </NavLink>
               </Item>
             </ScrollIntoView>
+            <ScrollIntoView selector="#contactme">
+              <Item>
+                <NavLink
+                // onClick={() =>
+                //   (window.location.href =
+                //     "https://abshakekumar.netlify.com/#contactme")
+                // }
+                >
+                  Contact
+                </NavLink>
+              </Item>
+            </ScrollIntoView>
           </NavItem>
         </Nav>
       </NavWrapper>
