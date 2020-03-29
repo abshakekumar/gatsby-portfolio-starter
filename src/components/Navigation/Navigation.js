@@ -47,7 +47,7 @@ export const Item = styled.li`
   margin-left: 2rem;
   cursor: pointer;
   &:hover {
-      color: #70d9e6;
+    color: #d6f10b;
   }
 `
 export const NavLink = styled.a`

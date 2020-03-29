@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import {breakpoints} from '../shared/Media'
+import { breakpoints } from "../shared/Media"
 
 export const Heading = styled.div`
   width: 100%;
@@ -10,19 +10,19 @@ export const Heading = styled.div`
   justify-content: space-around;
   background: #fff;
   @media (max-width: ${breakpoints.mobileMax}) {
-      flex-direction: column;
-      justify-content: center;
+    flex-direction: column;
+    justify-content: center;
   }
 `
 export const SideText = styled.h1`
-    font-size: 1.78rem;
-    color: #2d2d2d;
-    font-family: "Raleway", sans-sherif;
-    font-weight: 700;
+  font-size: 1.78rem;
+  color: #2d2d2d;
+  font-family: "Raleway", sans-sherif;
+  font-weight: 400;
 `
 export const Skill = styled.h3`
   font-size: 1.3rem;
   color: #2d2d2d;
   font-family: "Open Sans", sans-sherif;
-  opacity: .8;
+  opacity: 0.8;
 `

@@ -8,23 +8,13 @@ import {
   NavBrand,
   NavLink,
 } from "./Navigation/Navigation"
-import { useStaticQuery, graphql } from "gatsby"
 import ScrollIntoView from "react-scroll-into-view"
 
 const Menu = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          author
-        }
-      }
-    }
-  `)
   return (
     <Navbar>
       <NavWrapper>
-        <NavBrand>{data.site.siteMetadata.author}</NavBrand>
+        <NavBrand>Abhishek Kumar</NavBrand>
         <Nav>
           <NavItem>
             <ScrollIntoView selector="#about">

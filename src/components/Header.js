@@ -1,24 +1,14 @@
 import React from "react"
 import { Heading, SideText, Skill } from "./Heading/HeadStyle"
 import { Image } from "./shared/Image"
-import { useStaticQuery, graphql } from "gatsby"
 
 const Header = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          author
-        }
-      }
-    }
-  `)
   return (
     <Heading>
       <Image
         width="400px"
         height="400px"
-        src={require("../images/programming.svg")}
+        src={require("../images/code-developer.svg")}
       />
       <div
         style={{
@@ -26,11 +16,22 @@ const Header = () => {
           justifyContent: `center`,
           alignItems: `center`,
           flexDirection: `column`,
-          lineHeight: `.10rem`
+          lineHeight: `.10rem`,
+          fontWeight: "400",
         }}
       >
-        <SideText>Hi there, I'm {data.site.siteMetadata.author}</SideText>
-        <Skill>I'm a web designer</Skill>
+        <SideText>
+          Hi there, I'm{" "}
+          <span
+            style={{
+              fontWeight: "700",
+              color: "#D6F10B",
+            }}
+          >
+            Abhishek Kumar
+          </span>
+        </SideText>
+        <Skill>I'm a Front End Developer</Skill>
       </div>
     </Heading>
   )

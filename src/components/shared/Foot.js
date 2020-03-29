@@ -13,11 +13,19 @@ export const Content = styled.div`
   justify-content: space-around;
   align-items: center;
   padding: 2rem 2rem;
+  a {
+    &:hover {
+      color: #d6f10b;
+    }
+  }
 `
 export const MediaLink = styled.a`
-    text-decoration: none;
-    font-size: 1rem;
-    color: #2d2d2d;
-    margin-left: 1rem;
-    cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #2d2d2d;
+  margin-left: 1rem;
+  cursor: pointer;
+  &:hover {
+    color: #d6f10b;
+  }
 `

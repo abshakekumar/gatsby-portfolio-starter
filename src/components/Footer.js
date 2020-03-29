@@ -1,21 +1,7 @@
 import React from "react"
 import { FootContainer, Content, MediaLink } from "./shared/Foot"
-import { useStaticQuery, graphql } from "gatsby"
 
 const Footer = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          social {
-            twitter
-            github
-          }
-        }
-      }
-    }
-  `)
-  const { social } = data.site.siteMetadata
   return (
     <FootContainer>
       <Content>
@@ -26,16 +12,22 @@ const Footer = () => {
         </div>
         <div>
           <MediaLink
-            href={`https://github.com/${social.github}`}
+            href={"https://www.linkedin.com/in/abhishek-kumar-uidev/"}
             target="_blank"
           >
+            Linkedin
+          </MediaLink>
+          <MediaLink href={"https://github.com/abshakekumar"} target="_blank">
             Github
           </MediaLink>
+          <MediaLink href={"https://twitter.com/AbhiKum144"} target="_blank">
+            Twitter
+          </MediaLink>
           <MediaLink
-            href={`https://twitter.com/${social.twitter}`}
+            href={"https://stackoverflow.com/users/story/9434520"}
             target="_blank"
           >
-            Twitter
+            Stack Overflow
           </MediaLink>
         </div>
       </Content>
