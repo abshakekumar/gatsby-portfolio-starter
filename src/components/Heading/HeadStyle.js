@@ -19,6 +19,7 @@ export const SideText = styled.h1`
   color: #2d2d2d;
   font-family: "Raleway", sans-sherif;
   font-weight: 400;
+  padding: 0 20px;
 `
 export const Skill = styled.h3`
   font-size: 1.3rem;

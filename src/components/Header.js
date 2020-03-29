@@ -26,6 +26,8 @@ const Header = () => {
             style={{
               fontWeight: "700",
               color: "#D6F10B",
+              display: "inline-block",
+              textAlign: "center",
             }}
           >
             Abhishek Kumar

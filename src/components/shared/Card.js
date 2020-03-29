@@ -9,6 +9,7 @@ const StyledContainer = styled.div`
   .projectLink {
     &:hover {
       color: #d6f10b;
+      cursor: pointer;
     }
   }
 `

@@ -14,7 +14,6 @@ const StyledContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px 5rem;
-  cursor: pointer;
   @media (max-width: ${breakpoints.mobileMax}) {
     max-width: 90%;
     grid-template-columns: 1fr;
@@ -52,6 +51,26 @@ const Project = () => {
           Algorithms used : 
           1. Least Bit Substitution method 
           2. Discrete Wavelength Transformation technique (to improve capacity to hide without compromising the Video quality) "
+        />
+
+        <Card
+          photo={require("../images/learning-logs.svg")}
+          title="Learning Logs"
+          description="Project to keep track of the learning made in the Organization combined with
+          respect to different projects in the Organization. Project Owners can add any learning that
+          has been encountered while working on the project. And others can view those learning in different
+          projects so that those mistakes are not repeated in their projects. If same problem exists,
+          the person may reach out to the Project Owner for detailed solution via emails."
+        />
+
+        <Card
+          photo={require("../images/referral.svg")}
+          title="Referral System"
+          description="Project to keep track of the referrals. Mainly used by HR for their day to day
+          life maintainence of referral system. HR can update the jobs vacancy in the Organization
+          which is visible to all employees. Employees can select particular job and 
+          can add their referral details for the job position. Both HR and Employee can track the
+          current status of the referral."
         />
       </StyledContainer>
     </StyledRoot>
