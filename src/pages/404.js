@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import "../components/layout.css"
 import { Image } from "../components/shared/Image"
 
 const NotFoundPage = () => (
@@ -37,6 +38,16 @@ const NotFoundPage = () => (
         >
           You just hit a route that doesn&#39;t exist....
         </p>
+        <div className="wrap">
+          <button
+            className="button"
+            onClick={() =>
+              (window.location.href = "https://abshakekumar.netlify.com/")
+            }
+          >
+            Back Home
+          </button>
+        </div>
       </div>
     </div>
   </Layout>

@@ -1,10 +1,16 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
+import styled from "styled-components"
 
 const StyledContainer = styled.div`
   border: 1px solid #fff;
   padding: 25px 12px 18px;
   background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.19), 0 1px 1px rgba(0, 0, 1, 0.23);
+  .projectLink {
+    &:hover {
+      color: #d6f10b;
+    }
+  }
 `
 const Title = styled.h2`
   color: #2d2d2d;
@@ -29,15 +35,19 @@ const StyledPhoto = styled.img`
   border: 1px solid #fff;
 `
 
-const Card = ({
-  title,
-  description,
-  photo
-}) => (
+const Card = ({ title, description, link, photo }) => (
   <StyledContainer>
     <StyledPhoto src={photo} />
     <Title>{title}</Title>
     <Description>{description}</Description>
+    {link && (
+      <p
+        className="projectLink"
+        onClick={() => window.open(`${link.url}`, "_blank")}
+      >
+        {link.title}
+      </p>
+    )}
   </StyledContainer>
 )
 export default Card

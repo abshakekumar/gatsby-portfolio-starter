@@ -29,6 +29,10 @@ const Footer = () => {
           >
             Stack Overflow
           </MediaLink>
+          <MediaLink href={"https://medium.com/@abshakekumar"} target="_blank">
+            {" "}
+            Medium
+          </MediaLink>
         </div>
       </Content>
     </FootContainer>

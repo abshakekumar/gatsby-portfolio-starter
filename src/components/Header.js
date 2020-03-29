@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Heading>
       <Image
-        width="400px"
+        width="370px"
         height="400px"
         src={require("../images/code-developer.svg")}
       />
@@ -16,7 +16,7 @@ const Header = () => {
           justifyContent: `center`,
           alignItems: `center`,
           flexDirection: `column`,
-          lineHeight: `.10rem`,
+          lineHeight: `1`,
           fontWeight: "400",
         }}
       >
