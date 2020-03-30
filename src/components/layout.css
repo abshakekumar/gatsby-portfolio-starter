@@ -63,6 +63,7 @@ ul.contact-us li p {
 }
 ul.contact-us li a {
   color: inherit;
+  word-break: break-all;
 }
 ul.contact-us li a:hover {
   color: #d6f10b;
