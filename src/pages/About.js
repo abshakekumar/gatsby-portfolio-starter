@@ -17,7 +17,7 @@ const About = () => {
     <>
       <TextWrapper>
         <Text>
-          Hello, My name is Abhishek Kumar, and I'm a Front End Developer at
+          I am currently working with React at
           <a
             style={{
               color: "#d6f10b",
@@ -29,11 +29,11 @@ const About = () => {
           >
             Paytm
           </a>
-          . Currently working with React. After completing MSc Computer Science
-          from University of Delhi, i started working at Libsys Ltd as Front End
-          Developer. That was the beginning of the web exploration and love for
-          Javascript. Strong engineering professional skilled in HTML, CSS,
-          Javascript, JQuery, React Js and Angular 2+
+          . After completing MSc Computer Science from University of Delhi, i
+          started working at Libsys Ltd as Front End Developer. That was the
+          beginning of the web exploration and love for Javascript. Strong
+          engineering professional skilled in HTML, CSS, Javascript, JQuery,
+          React Js and Angular 2+
         </Text>
       </TextWrapper>
       <SkillWrapper>

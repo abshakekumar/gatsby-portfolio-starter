@@ -3,10 +3,19 @@ module.exports = {
     title: `Gatsby Portfolio Default Starter`,
     description: `Kick off your next, great Gatsby project with this default portfolio starter.`,
     author: `John Doe`,
-    stacks: ['React', 'GraphQL', 'Gatsby', 'Javascript', 'Redux', 'Styled-components', 'Node', 'MongoDB'],
+    stacks: [
+      "React",
+      "GraphQL",
+      "Gatsby",
+      "Javascript",
+      "Redux",
+      "Styled-components",
+      "Node",
+      "MongoDB",
+    ],
     social: {
       twitter: `judionit`,
-      github: `Judionit`
+      github: `Judionit`,
     },
   },
   plugins: [
