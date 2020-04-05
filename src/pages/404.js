@@ -6,6 +6,7 @@ import { Image } from "../components/shared/Image"
 const NotFoundPage = () => (
   <Layout>
     <div
+      className="not-found-container"
       style={{
         display: `flex`,
         justifyContent: `center`,

@@ -84,6 +84,9 @@ ul.contact-us li svg {
   .outer-container {
     width: 90%;
   }
+  .not-found-container {
+    flex-direction: column !important;
+  }
 }
 
 @media (max-width: 1000px) {
