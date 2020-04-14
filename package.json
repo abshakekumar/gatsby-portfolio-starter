@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "personal-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
@@ -27,9 +27,7 @@
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": [],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
