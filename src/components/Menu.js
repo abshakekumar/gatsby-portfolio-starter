@@ -14,7 +14,18 @@ const Menu = () => {
   return (
     <Navbar>
       <NavWrapper>
-        <NavBrand>Abhishek Kumar</NavBrand>
+        <NavBrand>
+          <span
+            style={{
+              cursor: "pointer",
+            }}
+            onClick={() =>
+              (window.location.href = "https://fast-resume.netlify.app/")
+            }
+          >
+            Abhishek Kumar
+          </span>
+        </NavBrand>
         <Nav>
           <NavItem>
             <ScrollIntoView selector="#about">

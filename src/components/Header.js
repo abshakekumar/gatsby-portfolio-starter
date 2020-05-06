@@ -28,7 +28,11 @@ const Header = () => {
               color: "#D6F10B",
               display: "inline-block",
               textAlign: "center",
+              cursor: "pointer",
             }}
+            onClick={() =>
+              (window.location.href = "https://fast-resume.netlify.app/")
+            }
           >
             Abhishek Kumar
           </span>
